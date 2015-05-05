@@ -14,7 +14,7 @@ $ psql
 $ \i tournament.sql
 ```
 
-To perform a suite of unit tests, quit **PostgreSQL** with `\q` and then run:
+To run a suite of unit tests, quit **PostgreSQL** with `\q` and then:
 
 ```
 $ python tournament_test.py
