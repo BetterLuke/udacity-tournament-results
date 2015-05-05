@@ -36,15 +36,15 @@ Keeps track of the number of losses for each player.
 
 Keeps track of the count of matches each player has played.
 
-## Running a game
+## Running a tournament
 
-Use the available functions, in this recommended order, to coordinate a game:
+Use the available Python functions, in this recommended order, to coordinate a game:
 
 METHOD | ACCEPTS | PURPOSE
 --- | --- | ---
 registerPlayer(name) | _name as string_ | Adds a player to the database to be calculated in pairings and standings.
 countPlayers() | _(no input)_ | Counts all registered players.
+swissPairings() | _(no input)_ | Returns a list of players grouped into pairs, arranged according to their current standings. Players are paired with those with about the same number of wins.
 reportMatch(winner, loser) | _winner as string_, _loser as string_ | Records the result of any given match. 
 playerStandings() | _(no input)_ | Returns the number of wins from all players. 
-swissPairings() | _(no input)_ | Returns a list of players grouped into pairs, arranged according to their current standings. Players are paired with those with about the same number of wins.
 
