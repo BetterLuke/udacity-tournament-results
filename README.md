@@ -14,6 +14,12 @@ $ psql
 $ \i tournament.sql
 ```
 
+To perform a suite of unit tests, quit **PostgreSQL** with `\q` and then run:
+
+```
+$ python tournament_test.py
+```
+
 ## Tables available
 
 **PLAYERS**
